@@ -10,7 +10,7 @@ describe "Static pages" do
     end
     it "should have title 'Home' " do
       visit '/static_pages/home'
-      expect(page).to have_title("#{base_title} | Home")
+      expect(page).to have_title("#{base_title}")
     end
   end
   describe "Help Page" do
